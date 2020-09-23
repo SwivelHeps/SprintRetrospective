@@ -1,0 +1,26 @@
+
+body {
+    margin-top: 50px;
+}
+
+.error-text 
+{
+    color: red;
+}
+
+.button-pair {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.button-pair button:first-child {
+	margin-right: 10px;
+}
+
+.common-button {
+	display: flex;
+	align-self: flex-end;
+	justify-content: center;
+	width: 120px;
+}

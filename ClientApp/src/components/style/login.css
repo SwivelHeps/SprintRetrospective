@@ -1,0 +1,28 @@
+
+.login-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 45%;
+}
+
+.login-inner-wrapper {
+	margin-top: 1vw;
+	width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+	.wrapper {
+		width: 85%;
+	}
+}
+
+.login-username, .login-password, .reg-firstname, .reg-lastname, .reg-email, .reg-username, .reg-password, .reg-re-password {
+	height: 84px;
+}

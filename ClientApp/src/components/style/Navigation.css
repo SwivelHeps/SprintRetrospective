@@ -1,0 +1,42 @@
+﻿
+.content-wrapper {
+	margin: 0 auto;
+	width: 97%;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	background: #303030;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+}
+
+.nav-text {
+	color: #DEF2F1;
+}
+
+.logo {
+	font: bold 20px Arial;
+	margin:13px;
+}
+
+.link {
+	color: #DEF2F1;
+	background: #2B7A78;
+	font: 18px Helvetica;
+	margin: 0;
+	padding: 17px;
+	position: absolute;
+	right: 0;
+	height: 99%;
+}
+
+.link:hover {
+	background: #bcd1d1;
+	cursor: pointer
+}
+
